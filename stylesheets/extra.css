@@ -1,0 +1,74 @@
+
+.md-typeset h1,
+.md-typeset h2 {
+  font-weight: bold;
+  letter-spacing: 0em;
+  color: #276380;
+}
+
+.md-typeset h3,
+.md-typeset h4  {
+  font-weight: bold;
+  letter-spacing: 0em;
+  color: #276380;
+}
+
+.md-typeset mark {
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-bottom: 1px;
+	padding-top: 1px;
+	background-color: rgba(52, 133, 172, 0.28);
+	border-radius: 4px;
+	color: #276380;
+	display: inline-block;
+	margin-bottom: 2px;
+	margin-top: 2px;
+}
+
+.md-top:focus, .md-top:hover {
+    background-color: #276380;
+}
+
+.md-typeset code {
+    border-radius: .3rem;
+    font-size: .9em;
+}
+
+.md-header {
+    background-color: #3485ac;
+}
+
+.md-nav__link:focus, .md-nav__link:hover {
+    color: #1cabf0c2;
+}
+
+.md-typeset pre > code:hover {
+    scrollbar-color: #1cabf0c2 transparent;
+}
+
+.md-ellipsis {
+    font-weight: bold;
+}
+
+.md-tabs__link {
+	font-weight: bold;
+}
+
+.md-typeset {
+    font-size: .7rem;
+}
+
+.md-typeset a:focus, .md-typeset a:hover {
+    color: #00adf0;
+}
+
+:root > * {
+	--md-code-bg-color: #f5faff;
+	--md-accent-fg-color: #3485ac;
+	--md-primary-fg-color: #3485ac;
+}
+
+.md-clipboard:hover {
+    color: #276380;
+}
